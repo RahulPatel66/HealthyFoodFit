@@ -1,0 +1,108 @@
+@media (max-width:991px){
+    html{
+        font-size: 60%;
+    }
+}
+
+@media (max-width:721px){
+    html{
+        font-size: 55%;
+    }
+    section{
+        padding: 1rem;
+    }
+    
+    #navigation .navitem  #menu{
+        display: inline-block;
+    }
+
+    
+#navigation .logo{
+    padding: 0.4rem;
+    width: 30%;
+    
+  }
+    #navigation .navlist{
+     padding: 1rem;
+    display: block;
+    text-align: left;
+    background-color: darkcyan;
+    color: aqua;
+    position: fixed;
+    top: -100%;
+    right: -100%;
+    border-radius: 1rem;
+    }
+    #navlist.active{
+        top: 4.5rem;
+        right: 1rem;
+    }
+    #navigation .navlist div{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+#navigation .navlist div a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: var(--black);
+    position:relative;
+    color: aqua;
+    margin: 1rem;
+    font-size: 2rem;
+   
+}
+
+#navigation .navitem{
+    width: 30%;
+      
+}
+
+#navigation .navlist a:hover{
+    color: var(--liteblue);
+    color: yellow;
+    text-shadow: .5px .5px black;
+    font-weight: bold;
+}
+
+}
+
+
+@media (max-width:421px){
+    html{
+        font-size: 50%;
+    }
+      
+#navigation .logo{
+    padding: 0.4rem;
+    width: 40%;
+    
+  }
+  
+#navigation .navitem{
+    width: 40%;
+   
+}
+#heart{
+    width: 65%;
+}
+#home{
+    display: inline-block;
+  height: 50rem;
+}
+#home .containt{
+width: 100%;
+padding: 3.5rem;
+}
+#home .image{
+    width: 100%;
+
+
+ }
+}
+
+
+@media (max-width:331px){
+    html{
+        font-size: 50%;
+    }
+}
